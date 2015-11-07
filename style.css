@@ -1,0 +1,59 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+#top-header{
+    background-color: #F1F1F1;
+    height: 30px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+#top-header a{
+    text-decoration: none !important;
+    color: #000;
+}
+#top-header .text-right{
+    margin-top: -20px;
+    padding-right: 5px;
+}
+#top-header div{
+    display: block;
+}
+header{
+    margin-top: 10px;
+}
+#navbar{
+    color: #fff !important;
+    background-color: #FF4646;
+    margin-top: 25px;
+}
+
+#navul>li>a{
+    color: #fff !important;
+}
+#navul>li>a:hover{
+    color: #FF4646 !important;
+    background: white;
+}
+
+/*main*/
+#carousel{
+    height: 420px !important;
+}
+.carousel-indicators>li{
+    background-color: #D9D9D9;
+}
+.carousel-indicators>li:active, .carousel-indicators>li.active{
+    background-color: #A0A0A0;
+}
+.carousel-text{
+    color: black !important;
+    font-family: "Georgia Regular";
+    margin-top: 70px !important;
+    margin-right: 15px;
+}
+.carousel-text> p{
+    font-size: 16pt;
+}
+.carousel-text h3{
+    font-size: 38pt;
+}
